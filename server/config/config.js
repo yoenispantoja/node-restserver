@@ -11,7 +11,8 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
 process.env.SEED_TOKEN = process.env.SEED_TOKEN || 'YoenisToken';
 
-
+//Client ID
+process.env.CLIENT_ID = process.env.CLIENT_ID || '503363384107-rhtaccdlroaabmk2gjtbatdg9r8muqr9.apps.googleusercontent.com'
 
 //Base de datos
 let urlBD;

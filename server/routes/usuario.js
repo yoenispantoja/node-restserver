@@ -43,6 +43,7 @@ app.post('/usuarios', [verificaToken, verificaAdminRole], function(req, res) {
     let usuario = new Usuario({
         nombre: body.nombre,
         email: body.email,
+        img: body.img,
         password: bcrypt.hashSync(body.password, 10),
         role: body.role
     });
